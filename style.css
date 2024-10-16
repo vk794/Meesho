@@ -305,3 +305,61 @@ nav ul li:hover .subMenu {
   margin-left: 100px;
   margin-top: 20px;
 }
+
+/** shop section **/
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.box {
+  height: 400px;
+  width: 20%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+.box-img {
+  height: 275px;
+  background-size: cover;
+}
+.box-content {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.box-content p {
+  color: green;
+}
+footer {
+  margin-top: 15px;
+}
+.foot-panel1 {
+  background-color: green;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.foot-panel2 {
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
